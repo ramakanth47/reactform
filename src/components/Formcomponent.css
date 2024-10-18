@@ -1,0 +1,47 @@
+
+
+.form-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.form-heading {
+  color: #c71585; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.verify-mobile {
+  color: #c71585; 
+  margin-top: 5px;
+  display: block;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.captcha-display {
+  font-size: 1.2rem;
+  color: #00008b; /* Dark blue */
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+.form-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.register-container {
+  display: flex;
+  align-items: center; /* Align vertically */
+  gap: 10px; /* Space between the button and the text */
+  margin-top: 10px;
+}
+
+.mandatory-verification {
+  color: #c71585; 
+  font-size: 0.9rem;
+}

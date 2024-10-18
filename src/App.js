@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import FormComponent from "./components/Formcomponent";
+
+//import img from "./images/background.jpg"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header">
+        {/* <img src={img} width="100%" height="20%" alt="background" /> */}
+      </div>
+      <div className="form-section">
+        <FormComponent />
+      </div>
     </div>
   );
 }
